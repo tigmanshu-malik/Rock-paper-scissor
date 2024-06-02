@@ -55,11 +55,9 @@ function playRound(human){
     else if(human == "scissor" && computer == "scissor"){
     }
     
-    container.innerHTML = `<p> Computer chose ${computer}</p>`
-
-    console.log(`Human: ${humanScore} Computer: ${ComputerScore} \n`)
+    container.innerHTML = `<p> Computer chose ${computer}</p>
+    <p>Human: ${humanScore} Computer: ${ComputerScore}</p>
+    `
 }
 
-for(let i = 0; i < 5; i++)
-    playRound()
 

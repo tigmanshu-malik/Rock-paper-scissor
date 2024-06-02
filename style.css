@@ -1,5 +1,6 @@
 body{
     background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 button{
@@ -13,8 +14,8 @@ button{
 .main{
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20%;
     gap: 50px;
 }
