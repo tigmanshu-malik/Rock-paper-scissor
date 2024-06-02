@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+button{
+
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+    gap: 50px;
+}
